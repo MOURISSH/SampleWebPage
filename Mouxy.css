@@ -1,0 +1,70 @@
+*{
+	margin: 10;
+	padding: 0;
+}
+
+html{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0,0.8)),url(images/russia-flag.jpg);
+	background-position: center;
+	background-size: 103%;
+}
+.header h1{
+	color: #fc2c03;
+	font-family: Josefin Sans;
+	font-stretch: ultra-expanded;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 50px;
+}
+.header h1:hover{
+	color: #fc2c03;
+	font-family: Josefin Sans;
+	font-stretch: ultra-expanded;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 51px;
+
+}
+.header h3{
+	color: white;
+	font-family: Josefin Sans;
+	font-stretch: ultra-expanded;
+	text-align: center;
+	margin-top: -7px;
+	font-size: 18px;
+}
+.img1 img{
+	width:170px;
+	height:225px;
+	margin-top: 40px;
+	border: 3px solid #fc2c03;
+	border-left-width: 7px;
+	border-top-width: 7px;
+	border-radius: 30px;
+	position:relative;
+}
+.img1 p{
+	color: white;
+	padding-left: 215px;
+	margin-top: -230px;
+	font-family: Josefin Sans;
+	font-size: 20px;
+}
+.img1 p.p1{
+	color: white;
+	padding-left: 215px;
+	margin-top: 10px;
+	font-family: Josefin Sans;
+	font-size: 20px;
+}
+button a{
+	background-color: transparent;
+	z-index: -1;
+	overflow: hidden;
+	transition: 0.25s;
+}
+button:hover a{
+	width: 100%;
+	border: none;
+	background-color: darkred;
+}
